@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.size{
+    padding: 4px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+}
+
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: solid red 1px;
+}
+
+.BUTTONS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 10px;
+    background-color: pink;
+}
+
+.black{
+    background-color: black;
+    color: snow;
+    padding: 5px;
+}
+
+.ruber{
+    background-color: white;
+    padding: 5px;
+}
+
+.random{
+    background-color: deepskyblue;
+    color: white;
+    padding: 5px;
+}
+
+.reset{
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+}
