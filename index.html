@@ -16,13 +16,14 @@
         <button class="size">Size</button>
     </div>
 
-    <div class="board">this is where the grid will be</div>
+    <p class="message"></p>
+    <div class="board"></div>
 
     <div class="BUTTONS">
-        <button class="black">Black</button>
-        <button class="ruber">Eraser</button>
-        <button class="random">Random</button>
-        <button class="reset">Reset</button>
+        <button class="black" onclick="setColor('black')">Black</button>
+        <button class="eraser" onclick="setColor('white')">Eraser</button>
+        <button class="random" onclick="setColor('random')">Random</button>
+        <button class="reset" onclick="resetButton()">Reset</button>
     </div>
 </body>
 </html>
