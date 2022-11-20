@@ -55,3 +55,21 @@ body{
     color: white;
     padding: 5px;
 }
+
+.black:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.eraser:hover{
+    background-color: black;
+    color: white;
+}
+
+.random:hover{
+    background-color: darkblue;
+}
+
+.reset:hover{
+    background-color: rgb(155, 89, 89);
+}
