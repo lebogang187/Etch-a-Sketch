@@ -39,11 +39,6 @@ body{
     padding: 5px;
 }
 
-.eraser{
-    background-color: white;
-    padding: 5px;
-}
-
 .random{
     background-color: deepskyblue;
     color: white;
@@ -59,11 +54,6 @@ body{
 .black:hover{
     background-color: wheat;
     color: black;
-}
-
-.eraser:hover{
-    background-color: black;
-    color: white;
 }
 
 .random:hover{
